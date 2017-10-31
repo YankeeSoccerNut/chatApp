@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A node app using express to create an instant message service using web sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YankeeSoccerNut/chatApp.git"
+  },
+  "keywords": [
+    "node",
+    "websockets",
+    "express",
+    "instant",
+    "message"
+  ],
+  "author": "Scott Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YankeeSoccerNut/chatApp/issues"
+  },
+  "homepage": "https://github.com/YankeeSoccerNut/chatApp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
